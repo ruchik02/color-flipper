@@ -1,0 +1,126 @@
+/* global  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body */
+body{
+    font-family: "Open Sans", sans-serif;
+    background: hsla(207, 66%, 89%, 0.925);
+    color: hsl(209, 66%, 10%);
+}
+/* ul */
+ul{
+    list-style-type: none;
+}
+/* anchor  */
+a{
+    text-decoration: none;
+}
+/* headings */
+h1,h2,h3,h4{
+    letter-spacing: 0.1rem;
+    text-transform: capitalize;
+    line-height: 1.25;
+    margin-bottom: 0.75rem;
+    font-family: "Roboto", sans-serif;
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.25rem;
+}
+h4{
+    font-size: 0.875rem;
+}
+body{
+    font-size: 1rem;
+}
+h1,h2,h3,h4{
+    line-height: 1;
+}
+/* nav bar */
+nav{
+    background-color: white;
+    height: 3rem;
+    display: grid;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+/* div  */
+.nav-center{
+    width: 90vw;
+    max-width: 620px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* h4 in div  */
+.nav-center h4{
+    margin-bottom: 0;
+    color:  hsla(209, 11%, 49%, 0.712);
+}
+/* ul  */
+.nav-links{
+    display: flex;
+}
+/* anchor tag in li  */
+.nav-links a{
+text-transform: capitalize;
+font-weight: 700;
+font-size: 1rem;
+color: hsl(205, 86%, 17%);
+letter-spacing: 0.1rem;
+margin-right: 1rem;
+}
+/* hover */
+.nav-links a:hover{
+    color: hsla(205, 44%, 54%, 0.808);
+}
+/* container */
+main{
+    min-height: calc(100vh - 3rem);
+    display: grid;
+    place-items: center;
+
+}
+.container{
+text-align: center;
+}
+.container h2{
+    background-color: black;
+    color: whitesmoke;
+    padding: 1rem;
+    border-radius: 15px;
+    margin-bottom: 2.5rem;
+}
+.color{
+    color: hsla(206, 74%, 88%, 0.877);;
+}
+.btn-color{
+    font-family:"Roboto", sans-serif ;
+    text-transform: uppercase;
+    background: transparent;
+    color: black;
+    letter-spacing: 0.1rem;
+    display: inline-block;
+    font-weight: 700;
+    transition: all 0.3s linear;
+    border: 2px solid black;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    font-size: 1rem;
+    padding: 0.75rem 1.25rem;
+}
+.btn-color:hover{
+    color: whitesmoke;
+    background-color: rgba(8, 8, 8, 0.973);
+}
+
